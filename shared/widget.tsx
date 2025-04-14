@@ -19,7 +19,7 @@ export const Widget = ({image, widgetKey, text, setLayout, layout}: {
                         Remove
                     </button>
                 ) : (
-                    <button onClick={() => setLayout([{i: text, key: widgetKey, x: 0, y: 0, w: 4, h: 2}, ...layout])} className="items-center cursor-pointer hover:border-blue-400 h-6 w-10 hover:text-blue-400 text-black border-1 border-gray-300 rounded-md">
+                    <button onClick={() => setLayout([{i: text, key: widgetKey, x: 0, y: 0, w: 0, h: 0}, ...layout])} className="items-center cursor-pointer hover:border-blue-400 h-6 w-10 hover:text-blue-400 text-black border-1 border-gray-300 rounded-md">
                         Add
                     </button>
                 )
