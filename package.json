@@ -2,10 +2,10 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://artemapian.github.io/frontend-ai",
+  "homepage": "https://github.com/artemapian/dashboard-react",
   "scripts": {
     "dev": "next dev",
-    "build": "npm run build",
+    "build": "next build",
     "build:tailwind": "npx tailwindcss -i ./app/globals.css -o ./app/output.css",
     "start": "next start",
     "lint": "next lint",
