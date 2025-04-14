@@ -32,7 +32,7 @@ const RussianIcon = () => {
 
 export const MenuBar = ({handleBellClick, language}: {handleBellClick: (e: React.MouseEvent, language: boolean) => void, language: boolean}) => {
     return (
-        <Menubar>
+        <Menubar className="bg-white">
             <MenubarMenu>
                 <MenubarTrigger><div className="flex w-full items-center gap-1"><EnglishIcon /><ChevronDownIcon className="w-4 h-4 text-gray-400" /></div></MenubarTrigger>
                 <MenubarContent>
